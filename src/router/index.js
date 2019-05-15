@@ -17,11 +17,15 @@ export default new Router({
       name: "mainPage",
       children: [
         {
-          path: "route-1",
+          path: "route-1/:id",
           name: "route-1",
           components: {
             a: Route1SlotA,
             b: Route1SlotB
+          },
+          props: {
+            a: true,
+            b: true
           }
         },
         {

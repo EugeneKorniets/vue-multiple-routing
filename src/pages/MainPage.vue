@@ -13,7 +13,7 @@
     </div>
     <div class="actions">
       <router-link class="link" :to="{ name: 'mainPage' }">Go to default</router-link>
-      <router-link class="link" :to="{ name: 'route-1' }">Go to router-view-1</router-link>
+      <router-link class="link" :to="{ name: 'route-1', params: {id: 1} }">Go to router-view-1</router-link>
       <router-link class="link" :to="{ name: 'route-2' }">Go to router-view-2</router-link>
     </div>
   </div>
