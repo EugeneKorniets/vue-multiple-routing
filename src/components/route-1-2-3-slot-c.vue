@@ -16,6 +16,10 @@ export default {
 
   mounted() {
     console.log("I'm mounted");
+  },
+
+  updated() {
+    console.log("I'm updated");
   }
 };
 </script>
